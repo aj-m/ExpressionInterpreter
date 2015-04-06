@@ -4,18 +4,17 @@
  * and open the template in the editor.
  */
 package express;
-
+enum TokenType{T_ID, T_DOUBLE, T_PLUS, T_MINUS, T_MULT, T_DIV, T_EQUALS,
+        T_LEFT_PAREN, T_RIGHT_PAREN};
 /**
  *
  * @author Andrew
  */
 public class Express {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
     }
     
 }
